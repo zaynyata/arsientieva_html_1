@@ -36,11 +36,6 @@ body {
     text-align: center;
 }
 
-.button {
-    color: white;
-    background: linear-gradient(to bottom, #484848 50%, #666666 100%, #747474 50%);
-}
-
 .panel-left {
     margin: 22px 0px 10px 50px;
     list-style-type: none;
@@ -111,4 +106,12 @@ a:hover {
 }
 .right {
     margin-left: 300px;
+}
+.p:hover {
+    color: white;
+    background: linear-gradient(to bottom, #484848 50%, #666666 100%, #747474 50%);
+    width: 150px;
+    height: 30px;
+    margin-top: auto;
+    padding-top:20px;
 }
