@@ -1,9 +1,7 @@
 body {
     background-color: #f9f9f9;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 1300px;
+    margin: auto;
 }
 
 .whole {
@@ -34,6 +32,7 @@ body {
 
 .panel-up div p {
     text-align: center;
+    text-shadow: 1px 1px 2px black;
 }
 
 .panel-left {
@@ -65,13 +64,13 @@ body {
     margin-left: 10px;
 }
 
-.panel-left li .active {
+.panel-left li .active:hover {
     background-color: #f9f9f9;
     border-color: #c8c8c8;
     background-clip: border-box;
 }
 
-.panel-left li .active p {
+.panel-left li .active p:hover {
     margin-left: 15px;
 }
 
@@ -107,7 +106,7 @@ a:hover {
 .right {
     margin-left: 300px;
 }
-.p:hover {
+.button:hover {
     color: white;
     background: linear-gradient(to bottom, #484848 50%, #666666 100%, #747474 50%);
     width: 150px;
