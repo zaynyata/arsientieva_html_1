@@ -1,6 +1,7 @@
 body {
     background-color: #f9f9f9;
-    width: 1300px;
+    box-shadow: 0 0 5px 2px #dbdbdb;
+    width: 1350px;
     margin: auto;
 }
 
@@ -17,22 +18,26 @@ body {
 
 .panel-up {
     margin-left: 50px;
-    margin-right: 50px;
     color: white;
     background: -webkit-linear-gradient(top, #949494 1%, #696969 51%, #696969 70%);
     width: 1200px;
     height: 50px;
 }
 
-.panel-up div {
+.panel-up li {
     float: left;
     width: 150px;
     height: inherit;
+    text-decoration: none;
+    list-style: none;
 }
 
-.panel-up div p {
+.panel-up li a {
     text-align: center;
     text-shadow: 1px 1px 2px black;
+    display: block;
+    margin: 20px 0 0 0;
+    color: white;
 }
 
 .panel-left {
@@ -45,72 +50,76 @@ body {
 .photo {
     float: right;
     border: solid 1px #c8c8c8;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 22px;
-    margin-right: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-right: 150px;
 }
 
-.panel-left li div {
+.panel-left li {
     border: solid 1px #c8c8c8;
     width: inherit;
     height: 50px;
     margin-top: -1px;
 }
 
-.panel-left li div p {
+.panel-left li a {
     margin-left: 10px;
+    color: gray;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
-.panel-left li .active:hover {
-    background-color: #f9f9f9;
-    border-color: #c8c8c8;
+.panel-left li:hover {
+    background-color: #c8c8c8;
     background-clip: border-box;
 }
 
-.panel-left li .active p:hover {
-    margin-left: 15px;
+.panel-left a:hover {
+    padding-left: 20px;
+    color: black;
 }
 
 .text {
-    width: 600px;
-    margin-left: 600px;
+    float: right;
+    margin-left: 35%;
+    margin-right: 15%;
     margin-top: 70px;
     margin-bottom: 30px;
-
 }
 
 .panel-down {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
     background: #949494;
-    width: 1200px;
+    width: 1250px;
     height: 30px;
     padding-top: 20px;
+    clear: both;
+    margin-left: 50px;
 }
-.panel-down a{
-    text-align: center;
-}
-a {
+
+.panel-down a {
+    padding-left: 50px;
+    padding-right: 50px;
     color: black;
     text-decoration: none;
-    margin: 50px;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
 .right {
-    margin-left: 300px;
+    float: right;
 }
+
 .button:hover {
     color: white;
     background: linear-gradient(to bottom, #484848 50%, #666666 100%, #747474 50%);
     width: 150px;
     height: 30px;
     margin-top: auto;
-    padding-top:20px;
+    padding-top: 20px;
+    text-decoration: none;
 }
